@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar -1 */
+.nav1{
+    background-color: #f1248b;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+}
+/* Webpage -1 */
+.nav2{
+    width: 1000px;
+    height: 100%;
+    border: 2px solid black;
+    margin-left: 300px;
+}
+.part1{
+    display: flex;
+    align-items: center;
+    margin:5px;
+    padding-top: 10px;
+}
+.logo{
+    height: 40px;
+    width: 200px;
+}
+.tester{
+    margin-left: 5px;
+    height: 30px;
+    color: #183b56;
+    background-color: #c3dbf3;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.tester:hover{
+    color: black;
+    font-weight:800px;
+    background-color: #8ec7e8;
+}
+.part2{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 650px;
+}
+.part2 a{
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+}
+.part2 a:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:#e52e90;
+    color: #0d0d0d;
+}
+.signin{
+    background-color: #fff;
+    border: 2px solid grey;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+}
+.signup{
+    background-color: #0ea0ee;
+    color: aliceblue;
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+}
+.signup:hover{
+    color: black;
+}
+/* Main */
+.cont{
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-between;
+}
+.cont1{
+    margin-left: 20px;
+    height: 400px;
+    width: 480px;
+}
+.cont2{
+    width: 500px;
+}
+.head{
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: 'Belanosima', sans-serif;
+}
+.para1{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.getstarted{
+    width: 200px;
+    padding: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Belanosima', sans-serif;
+    background-color: #0ea0ee;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.getstarted:hover{
+    color: black;
+}
+.image1{
+    height: 50vh;
+    width: 30vw;
+}
+/* Webpage 2 */
+.para2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.logos{
+    display: flex;
+    height: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    height: 100px;
+}
+.para3{
+    margin-top: 60px;
+    color: #4a5d68;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.feature{
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid grey;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+    border-color: #a2b7c2;
+    margin-left: 400px;
+}
+.feature:hover{
+    background-color: #7b7474;
+    color: #ffffff;
+}
+.multicard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card6{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 80px;
+}
+.size{
+    height: 10vh;
+    width: 5vw;
+    margin-left: 110px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-radius: 130px;
+}
+.card h3{
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+}
+.card p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card button{
+    margin-left: 60px;
+    margin-top: 7px;
+    padding: 8px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid grey;
+    cursor: pointer;
+    font-family: 'Belanosima', sans-serif;
+    border-color: #a2b7c2;
+}
+.card button:hover{
+    background-color: #7b7474;
+    color: #ffffff;
+}
+/* Webpage 4 */
+.flex{
+    display: flex;
+    margin-bottom: 60px;
+}
+.one{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+}
+.two{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+}
+.two h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.two h2{
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+}
+.two p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #4e4b4b;
+}
+.size1{
+    height: 62vh;
+    width: 32vw;
+    box-shadow: 0 0 4px 4px rgba(83, 86, 86, 0.703);
+}
+.flex2{
+    display: flex;
+    margin-top: 30px;
+}
+.p1{
+    width: 200px;
+    height: 120px;
+}
+/*     font-family: 'Belanosima', sans-serif;
+    font-family: 'Montserrat', sans-serif; */
+.p2{
+    width: 200px;
+    height: 120px;
+}
+.p2 h4{
+    font-family: 'Belanosima', sans-serif;
+
+}
+.size2{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 40%;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+/* Webpage 5 */
+.flex3{
+    display: flex;
+}
+.cd{
+    border: 2px solid black;
+    height: 300px;
+    width: 240px;
+    margin: 5px;
+    margin-top: 40px;
+    
+}
+.cd h2{
+    margin-top: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+.cd1{
+    background-image:url(https://www.vecteezy.com/vector-art/11893392-businessman-holding-pencil-tick-all-completed-task-checkbox-getting-things-done-completed-tasks-or-business-accomplishment-concept);
+}
+
+
+
+
+
